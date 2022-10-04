@@ -2,5 +2,3 @@
 !composer.json
 !README.md
 !.gitignore
-!.ddev
-!.ddev/config.yaml
