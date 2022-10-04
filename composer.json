@@ -1,5 +1,21 @@
 {
+  "autoload": {
+    "classmap": [
+      "web/private/scripts/composer/ScriptHandler.php"
+    ]
+  },
+  "autoload-dev": {
+    "files": [
+      "load.environment.php"
+    ]
+  },
+
+
+  "composer-version": "^2.10",
   "config": {
+
+
+
     "allow-plugins": {
       "acquia/blt": true,
       "composer/installers": true,
@@ -10,13 +26,35 @@
       "drupal/core-project-message": true,
       "drupal/core-vendor-hardening": true,
       "wikimedia/composer-merge-plugin": true
-    }
+    },
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "conflict": {
+    "drupal/drupal": "*"
   },
   "description": "Common packages.",
+  "extra": {
+    "composer-exit-on-patch-failure": true,
+
+    "drupal-scaffold": {
+      "file-mapping": {
+          "[web-root]/README.md": false
+      }
+    }
+
+
+  },
+  "minimum-stability": "dev",
   "name": "beto-aveiga/common-packages-site-x",
+  "patchLevel": {
+    "drupal/core": "-p2"
+  },
   "platform": {
     "php": "8.0"
   },
+  "prefer-stable": true,
   "repositories": [
     {
       "type": "composer",
