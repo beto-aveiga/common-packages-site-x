@@ -9,13 +9,8 @@
       "load.environment.php"
     ]
   },
-
-
   "composer-version": "^2.10",
   "config": {
-
-
-
     "allow-plugins": {
       "acquia/blt": true,
       "composer/installers": true,
@@ -37,14 +32,11 @@
   "description": "Common packages.",
   "extra": {
     "composer-exit-on-patch-failure": true,
-
     "drupal-scaffold": {
       "file-mapping": {
-          "[web-root]/README.md": false
+        "[web-root]/README.md": false
       }
     }
-
-
   },
   "minimum-stability": "dev",
   "name": "beto-aveiga/common-packages-site-x",
