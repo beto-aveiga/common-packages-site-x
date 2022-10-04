@@ -44,7 +44,7 @@
     "drupal/core": "-p2"
   },
   "platform": {
-    "php": "8.0"
+    "php": "7.4"
   },
   "prefer-stable": true,
   "repositories": [
@@ -67,7 +67,7 @@
     "drupal/config_filter": "^1.8",
     "drupal/config_ignore": "^2.3",
     "drupal/config_split": "^1.7",
-    "drupal/console": "^1.9.7",
+    "drupal/console": "^1.9",
     "drupal/core-composer-scaffold": "^9.4",
     "drupal/core-project-message": "^9.4",
     "drupal/core-recommended": "^9.4",
